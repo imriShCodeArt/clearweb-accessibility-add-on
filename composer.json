@@ -1,0 +1,28 @@
+{
+  "name": "clearweb/accessibility-suite",
+  "description": "Frontend accessibility add-on widget for WordPress.",
+  "version": "1.0.3",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "Clearweb\\AccessibilitySuite\\": "includes/"
+    }
+  },
+  "require": {
+    "php": ">=8.1"
+  },
+  "require-dev": {
+    "wp-coding-standards/wpcs": "^3.0",
+    "phpunit/phpunit": "^10.0"
+  },
+  "scripts": {
+    "phpcs": "phpcs --standard=WordPress includes clearweb-accessibility-suite.php",
+    "phpcbf": "phpcbf --standard=WordPress includes clearweb-accessibility-suite.php"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}

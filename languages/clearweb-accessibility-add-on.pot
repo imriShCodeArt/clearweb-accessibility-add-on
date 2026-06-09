@@ -1,0 +1,646 @@
+# Copyright (C) 2026 Clearweb
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Clearweb Accessibility Add-on 1.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/clearweb-accessibility-add-on\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-06-08T13:15:48+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: clearweb-accessibility-add-on\n"
+
+#. Plugin Name of the plugin
+#: clearweb-accessibility-suite.php
+#: includes/I18n.php:20
+msgid "Clearweb Accessibility Add-on"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: clearweb-accessibility-suite.php
+msgid "https://clearweb.co.il/wp-plugin"
+msgstr ""
+
+#. Description of the plugin
+#: clearweb-accessibility-suite.php
+msgid "Accessibility widget for WordPress with Hebrew (עברית) and RTL support — built for Israeli businesses."
+msgstr ""
+
+#. Author of the plugin
+#: clearweb-accessibility-suite.php
+msgid "Clearweb"
+msgstr ""
+
+#. Author URI of the plugin
+#: clearweb-accessibility-suite.php
+msgid "https://clearweb.co.il"
+msgstr ""
+
+#: includes/Admin/Menu.php:17
+#: includes/Admin/Menu.php:18
+msgid "Clearweb A11y"
+msgstr ""
+
+#: includes/Admin/Menu.php:30
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: includes/I18n.php:21
+msgid "The accessibility widget is an assistive layer. It does not replace semantic fixes, WCAG review, or legal/professional review."
+msgstr ""
+
+#: includes/I18n.php:25
+msgid "Need help fixing accessibility issues on your site? Clear Web offers audits, WCAG remediations, and ongoing support."
+msgstr ""
+
+#: includes/I18n.php:29
+msgid "Contact Clear Web"
+msgstr ""
+
+#: includes/I18n.php:30
+msgid "Contact Clear Web for accessibility remediations (opens in a new tab)"
+msgstr ""
+
+#: includes/I18n.php:31
+msgid "Widget appearance"
+msgstr ""
+
+#: includes/I18n.php:32
+msgid "Control where the accessibility button appears on the public site."
+msgstr ""
+
+#: includes/I18n.php:36
+msgid "Horizontal position"
+msgstr ""
+
+#: includes/I18n.php:37
+msgid "Left edge"
+msgstr ""
+
+#: includes/I18n.php:38
+msgid "Right edge"
+msgstr ""
+
+#: includes/I18n.php:39
+msgid "Which side of the screen the trigger button is pinned to (physical left or right)."
+msgstr ""
+
+#: includes/I18n.php:43
+msgid "Vertical position (desktop)"
+msgstr ""
+
+#: includes/I18n.php:44
+msgid "Vertical position (mobile)"
+msgstr ""
+
+#: includes/I18n.php:45
+msgid "Sets the CSS top position as a percentage of the viewport height. 50% is vertically centered."
+msgstr ""
+
+#. translators: %d: vertical position as a percentage (0-100).
+#: includes/I18n.php:50
+#, php-format
+msgid "%d%%"
+msgstr ""
+
+#: includes/I18n.php:51
+msgid "Save settings"
+msgstr ""
+
+#: includes/I18n.php:52
+msgid "Saving…"
+msgstr ""
+
+#: includes/I18n.php:53
+msgid "Settings saved."
+msgstr ""
+
+#: includes/I18n.php:54
+msgid "Could not save settings. Please try again."
+msgstr ""
+
+#: includes/I18n.php:55
+msgid "Loading settings…"
+msgstr ""
+
+#: includes/I18n.php:67
+msgid "Open accessibility menu"
+msgstr ""
+
+#: includes/I18n.php:68
+msgid "Close accessibility menu"
+msgstr ""
+
+#: includes/I18n.php:69
+msgid "Accessibility settings"
+msgstr ""
+
+#: includes/I18n.php:70
+msgid "Highlight color"
+msgstr ""
+
+#: includes/I18n.php:72
+msgid "Quick start"
+msgstr ""
+
+#: includes/I18n.php:73
+msgid "Low vision"
+msgstr ""
+
+#: includes/I18n.php:74
+msgid "ADHD"
+msgstr ""
+
+#: includes/I18n.php:75
+msgid "Reduce motion"
+msgstr ""
+
+#: includes/I18n.php:76
+#: includes/I18n.php:127
+msgid "High contrast"
+msgstr ""
+
+#: includes/I18n.php:77
+msgid "Active settings"
+msgstr ""
+
+#: includes/I18n.php:78
+msgid "No adjustments active"
+msgstr ""
+
+#: includes/I18n.php:79
+msgid "Remove"
+msgstr ""
+
+#: includes/I18n.php:80
+msgid "Text"
+msgstr ""
+
+#: includes/I18n.php:81
+msgid "Vision"
+msgstr ""
+
+#: includes/I18n.php:82
+msgid "Reading"
+msgstr ""
+
+#: includes/I18n.php:83
+msgid "More"
+msgstr ""
+
+#: includes/I18n.php:84
+msgid "Essential aids"
+msgstr ""
+
+#: includes/I18n.php:85
+msgid "When on, Tab to content or click it to hear it read aloud."
+msgstr ""
+
+#: includes/I18n.php:89
+msgid "Screen reader is active. Tab through this menu or the page to hear each item."
+msgstr ""
+
+#: includes/I18n.php:93
+msgid "Screen reader turned off."
+msgstr ""
+
+#: includes/I18n.php:94
+msgid "Pauses moving and auto-playing animations across the site."
+msgstr ""
+
+#: includes/I18n.php:98
+msgid "Mutes videos and blocks new sounds until you turn this off."
+msgstr ""
+
+#: includes/I18n.php:102
+msgid "Stop speaking"
+msgstr ""
+
+#: includes/I18n.php:103
+msgid "Stopped speaking"
+msgstr ""
+
+#: includes/I18n.php:104
+msgid "Text-to-speech is not supported in this browser."
+msgstr ""
+
+#: includes/I18n.php:108
+msgid "Could not read this text. Try another section."
+msgstr ""
+
+#: includes/I18n.php:112
+msgid "On"
+msgstr ""
+
+#: includes/I18n.php:113
+msgid "Off"
+msgstr ""
+
+#: includes/I18n.php:114
+msgid "Selected"
+msgstr ""
+
+#: includes/I18n.php:115
+msgid "Text size"
+msgstr ""
+
+#: includes/I18n.php:117
+msgid "Typography"
+msgstr ""
+
+#: includes/I18n.php:118
+msgid "Increase text"
+msgstr ""
+
+#: includes/I18n.php:119
+msgid "Decrease text"
+msgstr ""
+
+#: includes/I18n.php:120
+msgid "Line height"
+msgstr ""
+
+#: includes/I18n.php:121
+msgid "Letter spacing"
+msgstr ""
+
+#: includes/I18n.php:122
+msgid "Word spacing"
+msgstr ""
+
+#: includes/I18n.php:123
+msgid "Dyslexia font"
+msgstr ""
+
+#: includes/I18n.php:124
+msgid "Larger cursor"
+msgstr ""
+
+#: includes/I18n.php:126
+msgid "Contrast"
+msgstr ""
+
+#: includes/I18n.php:128
+msgid "Light contrast"
+msgstr ""
+
+#: includes/I18n.php:129
+msgid "Dark contrast"
+msgstr ""
+
+#: includes/I18n.php:130
+msgid "Night mode"
+msgstr ""
+
+#: includes/I18n.php:131
+msgid "Invert colors"
+msgstr ""
+
+#: includes/I18n.php:133
+msgid "Color saturation"
+msgstr ""
+
+#: includes/I18n.php:134
+msgid "Monochrome"
+msgstr ""
+
+#: includes/I18n.php:135
+msgid "Low saturation"
+msgstr ""
+
+#: includes/I18n.php:136
+msgid "High saturation"
+msgstr ""
+
+#: includes/I18n.php:138
+msgid "Color blindness"
+msgstr ""
+
+#: includes/I18n.php:139
+msgid "Deuteranopia (green-blind)"
+msgstr ""
+
+#: includes/I18n.php:140
+msgid "Protanopia (red-blind)"
+msgstr ""
+
+#: includes/I18n.php:141
+msgid "Tritanopia (blue-blind)"
+msgstr ""
+
+#: includes/I18n.php:143
+msgid "Reading aids"
+msgstr ""
+
+#: includes/I18n.php:144
+msgid "Highlight links"
+msgstr ""
+
+#: includes/I18n.php:145
+msgid "Highlight headings"
+msgstr ""
+
+#: includes/I18n.php:146
+msgid "Readable font"
+msgstr ""
+
+#: includes/I18n.php:147
+msgid "Focused content"
+msgstr ""
+
+#: includes/I18n.php:148
+msgid "Reading content"
+msgstr ""
+
+#: includes/I18n.php:149
+msgid "Reading mask"
+msgstr ""
+
+#: includes/I18n.php:150
+msgid "Reading mode"
+msgstr ""
+
+#: includes/I18n.php:151
+msgid "Read aloud"
+msgstr ""
+
+#: includes/I18n.php:153
+msgid "Additional aids"
+msgstr ""
+
+#: includes/I18n.php:154
+msgid "Stop animations"
+msgstr ""
+
+#: includes/I18n.php:155
+msgid "Pause GIFs"
+msgstr ""
+
+#: includes/I18n.php:156
+msgid "Hide images"
+msgstr ""
+
+#: includes/I18n.php:157
+msgid "Show alt text"
+msgstr ""
+
+#: includes/I18n.php:158
+msgid "Stop audio"
+msgstr ""
+
+#: includes/I18n.php:159
+msgid "Highlight hover"
+msgstr ""
+
+#: includes/I18n.php:160
+msgid "Highlight click"
+msgstr ""
+
+#: includes/I18n.php:161
+msgid "Form labels"
+msgstr ""
+
+#: includes/I18n.php:162
+msgid "Table navigation"
+msgstr ""
+
+#: includes/I18n.php:163
+msgid "Missing label"
+msgstr ""
+
+#: includes/I18n.php:165
+#: includes/I18n.php:171
+msgid "Navigation"
+msgstr ""
+
+#: includes/I18n.php:166
+msgid "Skip to main content"
+msgstr ""
+
+#: includes/I18n.php:167
+msgid "Jump to section"
+msgstr ""
+
+#: includes/I18n.php:168
+msgid "No landmarks found"
+msgstr ""
+
+#: includes/I18n.php:169
+msgid "Keyboard shortcuts"
+msgstr ""
+
+#: includes/I18n.php:170
+msgid "Header"
+msgstr ""
+
+#: includes/I18n.php:172
+msgid "Main content"
+msgstr ""
+
+#: includes/I18n.php:173
+msgid "Sidebar"
+msgstr ""
+
+#: includes/I18n.php:174
+msgid "Footer"
+msgstr ""
+
+#: includes/I18n.php:175
+msgid "Search"
+msgstr ""
+
+#: includes/I18n.php:176
+msgid "Form"
+msgstr ""
+
+#: includes/I18n.php:178
+msgid "Move to next focusable element"
+msgstr ""
+
+#: includes/I18n.php:179
+msgid "Move to previous element"
+msgstr ""
+
+#: includes/I18n.php:180
+msgid "Activate button or link"
+msgstr ""
+
+#: includes/I18n.php:181
+msgid "Close dialog or overlay"
+msgstr ""
+
+#: includes/I18n.php:182
+msgid "Navigate within menus and groups"
+msgstr ""
+
+#: includes/I18n.php:183
+msgid "Jump to next heading"
+msgstr ""
+
+#: includes/I18n.php:184
+msgid "Jump to next form field"
+msgstr ""
+
+#: includes/I18n.php:185
+msgid "Jump to next list"
+msgstr ""
+
+#: includes/I18n.php:186
+msgid "Jump to next table"
+msgstr ""
+
+#: includes/I18n.php:187
+msgid "Navigate table cells (NVDA)"
+msgstr ""
+
+#: includes/I18n.php:189
+msgid "Profiles"
+msgstr ""
+
+#: includes/I18n.php:190
+msgid "Save current"
+msgstr ""
+
+#: includes/I18n.php:191
+msgid "No saved profiles"
+msgstr ""
+
+#: includes/I18n.php:192
+msgid "Delete"
+msgstr ""
+
+#: includes/I18n.php:193
+msgid "Enter a name for this profile:"
+msgstr ""
+
+#: includes/I18n.php:195
+msgid "Report a problem"
+msgstr ""
+
+#: includes/I18n.php:196
+msgid "Your name"
+msgstr ""
+
+#: includes/I18n.php:197
+msgid "Your email"
+msgstr ""
+
+#: includes/I18n.php:198
+msgid "Page URL"
+msgstr ""
+
+#: includes/I18n.php:199
+msgid "Problem category"
+msgstr ""
+
+#: includes/I18n.php:200
+msgid "Description"
+msgstr ""
+
+#: includes/I18n.php:201
+msgid "Submit report"
+msgstr ""
+
+#: includes/I18n.php:202
+msgid "— Select —"
+msgstr ""
+
+#: includes/I18n.php:203
+msgid "Keyboard navigation"
+msgstr ""
+
+#: includes/I18n.php:204
+msgid "Screen reader"
+msgstr ""
+
+#: includes/I18n.php:205
+msgid "Color or contrast"
+msgstr ""
+
+#: includes/I18n.php:206
+msgid "Text or font"
+msgstr ""
+
+#: includes/I18n.php:207
+msgid "Images or media"
+msgstr ""
+
+#: includes/I18n.php:208
+msgid "Forms"
+msgstr ""
+
+#: includes/I18n.php:209
+msgid "Other"
+msgstr ""
+
+#: includes/I18n.php:210
+msgid "Please fill in all required fields."
+msgstr ""
+
+#: includes/I18n.php:211
+msgid "Sending\\u2026"
+msgstr ""
+
+#: includes/I18n.php:212
+#: includes/Rest/Controllers/ReportController.php:34
+#: includes/Rest/Controllers/ReportController.php:92
+msgid "Report submitted. Thank you!"
+msgstr ""
+
+#: includes/I18n.php:213
+#: includes/Rest/Controllers/ReportController.php:84
+msgid "Could not send the report. Please try again."
+msgstr ""
+
+#: includes/I18n.php:214
+#: includes/Rest/Controllers/ReportController.php:41
+msgid "Too many reports from your connection. Please wait and try again later."
+msgstr ""
+
+#: includes/I18n.php:215
+msgid "Company website"
+msgstr ""
+
+#: includes/I18n.php:217
+msgid "Accessibility statement"
+msgstr ""
+
+#: includes/I18n.php:218
+msgid "Accessibility help"
+msgstr ""
+
+#: includes/I18n.php:219
+msgid "Reset accessibility settings"
+msgstr ""
+
+#: includes/I18n.php:221
+msgid "Clear Web"
+msgstr ""
+
+#. translators: %s: brand name (Clear Web).
+#: includes/I18n.php:223
+#, php-format
+msgid "The accessibility system on this site was developed by %s"
+msgstr ""
+
+#: includes/I18n.php:224
+msgid "Visit Clear Web (opens in a new tab)"
+msgstr ""
+
+#: includes/Rest/Controllers/ReportController.php:54
+msgid "Category and description are required."
+msgstr ""
+
+#. translators: %s: site name
+#: includes/Rest/Controllers/ReportController.php:64
+#, php-format
+msgid "[%s] Accessibility problem report"
+msgstr ""
+
+#: includes/Rest/Controllers/ReportController.php:66
+msgid "A new accessibility problem has been reported:"
+msgstr ""

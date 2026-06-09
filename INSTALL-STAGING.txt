@@ -1,0 +1,38 @@
+Clearweb Accessibility Add-on — staging install
+=============================================
+
+If WordPress says "Plugin file does not exist", the plugin folder on the server
+is wrong (often from a bad ZIP or an old upload). Fix it like this:
+
+1. On staging, DELETE every folder that starts with:
+   wp-content/plugins/clearweb-accessibility-suite
+
+2. In WP Admin → Plugins, if you still see a broken entry, refresh after step 1
+   (or remove leftover folders via FTP/SFTP).
+
+3. Build a fresh ZIP on your PC (from the plugin folder):
+   php scripts/build-release-zip.php
+
+4. Upload ONLY: clearweb-accessibility-suite.zip
+   (Plugins → Add New → Upload Plugin → Install → Activate)
+
+5. Confirm via FTP that THIS file exists (exact path):
+   wp-content/plugins/clearweb-accessibility-suite/clearweb-accessibility-suite.php
+
+   You must also see:
+   wp-content/plugins/clearweb-accessibility-suite/includes/
+   wp-content/plugins/clearweb-accessibility-suite/build/
+   wp-content/plugins/clearweb-accessibility-suite/assets/css/frontend.css
+
+6. If the widget looks broken (thin theme borders, cramped text) but Hebrew/English
+   strings work, frontend.css is missing or blocked. In the browser, open:
+   your-site.com/wp-content/plugins/clearweb-accessibility-suite/assets/css/frontend.css
+   It must return HTTP 200 and ~40+ KB of CSS (not 404).
+   Purge staging cache / disable CSS combine plugins if needed.
+
+WRONG layouts (do not use):
+   wp-content/plugins/clearweb-accessibility-suite.php  (file at plugins root)
+   wp-content/plugins/clearweb-accessibility-suite/clearweb-accessibility-suite/clearweb-accessibility-suite.php  (nested twice)
+   wp-content/plugins/some-other-folder-name/clearweb-accessibility-suite.php  (rename folder to match)
+
+Do NOT upload node_modules, vendor, or assets/src — they are not needed on the server.

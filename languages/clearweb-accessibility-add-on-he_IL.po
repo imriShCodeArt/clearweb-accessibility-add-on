@@ -1,0 +1,625 @@
+# Hebrew translation for Clearweb Accessibility Add-on.
+# Copyright (C) 2026 Clearweb
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Clearweb Accessibility Add-on 1.0.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-04 00:00+0000\n"
+"PO-Revision-Date: 2026-06-04 00:00+0000\n"
+"Last-Translator: Clearweb\n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Cursor\n"
+
+# ── Admin / Menu ────────────────────────────────────────────────────
+msgid "Clearweb A11y"
+msgstr "Clearweb נגישות"
+
+msgid "You do not have permission to access this page."
+msgstr "אין לך הרשאה לגשת לדף זה."
+
+# ── Admin panel ──────────────────────────────────────────────────────
+msgid "Clearweb Accessibility Add-on"
+msgstr "תוסף הנגישות Clearweb"
+
+msgid "The accessibility widget is an assistive layer. It does not replace semantic fixes, WCAG review, or legal/professional review."
+msgstr "וידג'ט הנגישות הוא שכבת סיוע בלבד. הוא אינו מחליף תיקונים סמנטיים, בדיקת WCAG או ביקורת משפטית/מקצועית."
+
+msgid "Need help fixing accessibility issues on your site? Clear Web offers audits, WCAG remediations, and ongoing support."
+msgstr "זקוקים לעזרה בתיקוני נגישות באתר? Clear Web מציעה ביקורות נגישות, יישום WCAG וליווי שוטף."
+
+msgid "Contact Clear Web"
+msgstr "צרו קשר עם Clear Web"
+
+msgid "Contact Clear Web for accessibility remediations (opens in a new tab)"
+msgstr "צרו קשר עם Clear Web לתיקוני נגישות (נפתח בלשונית חדשה)"
+
+msgid "Widget appearance"
+msgstr "מראה הוידג'ט"
+
+msgid "Control where the accessibility button appears on the public site."
+msgstr "קבע היכן כפתור הנגישות יופיע באתר הציבורי."
+
+msgid "Horizontal position"
+msgstr "מיקום אופקי"
+
+msgid "Left edge"
+msgstr "צד שמאל"
+
+msgid "Right edge"
+msgstr "צד ימין"
+
+msgid "Which side of the screen the trigger button is pinned to (physical left or right)."
+msgstr "לאיזה צד המסך (שמאל או ימין פיזי) יוצמד כפתור הנגישות."
+
+msgid "Vertical position (desktop)"
+msgstr "מיקום אנכי (מחשב)"
+
+msgid "Vertical position (mobile)"
+msgstr "מיקום אנכי (נייד)"
+
+msgid "Sets the CSS top position as a percentage of the viewport height. 50% is vertically centered."
+msgstr "קובע את ערך ה-top ב-CSS כאחוז מגובה המסך. 50% ממרכז את הכפתור אנכית."
+
+msgid "%d%%"
+msgstr "%d%%"
+
+msgid "Save settings"
+msgstr "שמור הגדרות"
+
+msgid "Saving…"
+msgstr "שומר…"
+
+msgid "Settings saved."
+msgstr "ההגדרות נשמרו."
+
+msgid "Could not save settings. Please try again."
+msgstr "לא ניתן לשמור את ההגדרות. נסה שוב."
+
+msgid "Loading settings…"
+msgstr "טוען הגדרות…"
+
+# ── Widget – trigger & panel chrome ──────────────────────────────────
+msgid "Open accessibility menu"
+msgstr "פתח תפריט נגישות"
+
+msgid "Close accessibility menu"
+msgstr "סגור תפריט נגישות"
+
+msgid "Accessibility settings"
+msgstr "הגדרות נגישות"
+
+# ── Reading aids ──────────────────────────────────────────────────────
+msgid "Reading aids"
+msgstr "עזרי קריאה"
+
+msgid "Highlight links"
+msgstr "הדגשת קישורים"
+
+msgid "Highlight headings"
+msgstr "הדגשת כותרות"
+
+msgid "Readable font"
+msgstr "גופן קריא"
+
+msgid "Focused content"
+msgstr "תוכן ממוקד"
+
+msgid "Reading content"
+msgstr "מצב קריאה"
+
+msgid "Increase text"
+msgstr "הגדלת טקסט"
+
+# ── Contrast ──────────────────────────────────────────────────────────
+msgid "Contrast"
+msgstr "ניגודיות"
+
+msgid "High contrast"
+msgstr "ניגודיות גבוהה"
+
+msgid "Light contrast"
+msgstr "ניגודיות בהירה"
+
+msgid "Dark contrast"
+msgstr "ניגודיות כהה"
+
+msgid "Monochrome"
+msgstr "מונוכרום"
+
+msgid "Low saturation"
+msgstr "רוויה נמוכה"
+
+msgid "High saturation"
+msgstr "רוויה גבוהה"
+
+# ── Additional aids ───────────────────────────────────────────────────
+msgid "Additional aids"
+msgstr "עזרים נוספים"
+
+msgid "Stop animations"
+msgstr "הפסקת אנימציות"
+
+msgid "Hide images"
+msgstr "הסתרת תמונות"
+
+msgid "Stop audio"
+msgstr "עצירת שמע"
+
+msgid "Reading mode"
+msgstr "מצב קריאה רגוע"
+
+msgid "Highlight click"
+msgstr "הדגשת לחיצה"
+
+msgid "Highlight hover"
+msgstr "הדגשת ריחוף"
+
+# ── Footer ────────────────────────────────────────────────────────────
+msgid "Accessibility statement"
+msgstr "הצהרת נגישות"
+
+msgid "Accessibility help"
+msgstr "עזרה בנגישות"
+
+msgid "Reset accessibility settings"
+msgstr "איפוס הגדרות נגישות"
+
+# ── Statement generator ───────────────────────────────────────────────
+msgid "Accessibility Statement for %s"
+msgstr "הצהרת נגישות עבור %s"
+
+msgid "We are committed to making this website accessible to people with disabilities."
+msgstr "אנו מחויבים להנגיש אתר זה לאנשים עם מוגבלויות."
+
+msgid "Accessibility adjustments"
+msgstr "התאמות נגישות"
+
+msgid "This draft should describe the accessibility work performed on the website, known limitations, and the review process."
+msgstr "טיוטה זו צריכה לתאר את עבודת הנגישות שבוצעה באתר, מגבלות ידועות ותהליך הביקורת."
+
+msgid "Contact"
+msgstr "יצירת קשר"
+
+msgid "If you find an accessibility issue, contact us at"
+msgstr "אם מצאת בעיית נגישות, צור איתנו קשר בכתובת"
+
+msgid "Last updated:"
+msgstr "עודכן לאחרונה:"
+
+# ── Legal docs ────────────────────────────────────────────────────────
+msgid "Terms of Use"
+msgstr "תנאי שימוש"
+
+msgid "Privacy Policy"
+msgstr "מדיניות פרטיות"
+
+msgid "This draft applies to %s."
+msgstr "טיוטה זו חלה על %s."
+
+msgid "Replace this placeholder with AI-assisted generated sections after implementing the legal interview flow."
+msgstr "החלף מציין מיקום זה בסעיפים שנוצרו בסיוע AI לאחר יישום תהליך הראיון המשפטי."
+
+msgid "Important:"
+msgstr "חשוב:"
+
+msgid "This draft is not legal advice."
+msgstr "טיוטה זו אינה ייעוץ משפטי."
+
+# ── Scanner rules ─────────────────────────────────────────────────────
+msgid "Image is missing an alt attribute."
+msgstr "לתמונה חסר מאפיין alt."
+
+msgid "Image has an empty alt attribute. Confirm it is decorative."
+msgstr "לתמונה יש מאפיין alt ריק. ודא שהיא דקורטיבית."
+
+msgid "Button has no accessible name."
+msgstr "לכפתור אין שם נגיש."
+
+# ── REST / misc ───────────────────────────────────────────────────────
+msgid "Attachment is not an image."
+msgstr "הקובץ המצורף אינו תמונה."
+
+msgid "Invalid attachment ID."
+msgstr "מזהה קובץ מצורף לא תקין."
+
+msgid "Invalid scan ID."
+msgstr "מזהה סריקה לא תקין."
+
+msgid "No AI provider is configured."
+msgstr "לא הוגדר ספק AI."
+
+msgid "Missing API key."
+msgstr "חסר מפתח API."
+
+msgid "OpenAI client not implemented yet."
+msgstr "לקוח OpenAI טרם יושם."
+
+msgid "This is a draft and is not legal advice. Have a qualified lawyer review it before publication."
+msgstr "זו טיוטה ואינה ייעוץ משפטי. יש לבקש מעורך דין מוסמך לבדוק אותה לפני פרסום."
+
+msgid "This is a draft. A qualified accessibility professional should review it before publication."
+msgstr "זו טיוטה. יש לבקש ממומחה נגישות מוסמך לבדוק אותה לפני פרסום."
+
+# ── Cookie banner ─────────────────────────────────────────────────────
+msgid "Cookie preferences"
+msgstr "העדפות עוגיות"
+
+msgid "We use necessary cookies to run this site. Optional cookies are used only with your consent."
+msgstr "אנו משתמשים בעוגיות הכרחיות להפעלת האתר. עוגיות אופציונליות משמשות רק בהסכמתך."
+
+msgid "Reject optional"
+msgstr "דחיית אופציונליות"
+
+msgid "Accept all"
+msgstr "אישור הכל"
+
+msgid "Customize"
+msgstr "התאמה אישית"
+
+# ── Widget: panel chrome ───────────────────────────────────────────────────────
+msgid "Open accessibility menu"
+msgstr "פתח תפריט נגישות"
+
+msgid "Close accessibility menu"
+msgstr "סגור תפריט נגישות"
+
+msgid "Accessibility settings"
+msgstr "הגדרות נגישות"
+
+msgid "Highlight color"
+msgstr "צבע הדגשה"
+
+# ── Widget: typography ────────────────────────────────────────────────────────
+msgid "Typography"
+msgstr "טיפוגרפיה"
+
+msgid "Increase text"
+msgstr "הגדל טקסט"
+
+msgid "Decrease text"
+msgstr "הקטן טקסט"
+
+msgid "Line height"
+msgstr "גובה שורה"
+
+msgid "Letter spacing"
+msgstr "מרווח אותיות"
+
+msgid "Word spacing"
+msgstr "מרווח מילים"
+
+msgid "Dyslexia font"
+msgstr "גופן דיסלקסיה"
+
+msgid "Larger cursor"
+msgstr "סמן גדול יותר"
+
+# ── Widget: contrast ──────────────────────────────────────────────────────────
+msgid "Contrast"
+msgstr "ניגודיות"
+
+msgid "High contrast"
+msgstr "ניגודיות גבוהה"
+
+msgid "Light contrast"
+msgstr "ניגודיות בהירה"
+
+msgid "Dark contrast"
+msgstr "ניגודיות כהה"
+
+msgid "Night mode"
+msgstr "מצב לילה"
+
+msgid "Invert colors"
+msgstr "הפוך צבעים"
+
+# ── Widget: saturation ────────────────────────────────────────────────────────
+msgid "Color saturation"
+msgstr "רוויית צבע"
+
+msgid "Monochrome"
+msgstr "מונוכרום"
+
+msgid "Low saturation"
+msgstr "רוויה נמוכה"
+
+msgid "High saturation"
+msgstr "רוויה גבוהה"
+
+# ── Widget: color blindness ───────────────────────────────────────────────────
+msgid "Color blindness"
+msgstr "עיוורון צבעים"
+
+msgid "Deuteranopia (green-blind)"
+msgstr "דאוטרנופיה (ירוק)"
+
+msgid "Protanopia (red-blind)"
+msgstr "פרוטנופיה (אדום)"
+
+msgid "Tritanopia (blue-blind)"
+msgstr "טריטנופיה (כחול)"
+
+# ── Widget: reading ───────────────────────────────────────────────────────────
+msgid "Reading aids"
+msgstr "עזרי קריאה"
+
+msgid "Highlight links"
+msgstr "הדגש קישורים"
+
+msgid "Highlight headings"
+msgstr "הדגש כותרות"
+
+msgid "Readable font"
+msgstr "גופן קריא"
+
+msgid "Focused content"
+msgstr "תוכן ממוקד"
+
+msgid "Reading content"
+msgstr "תוכן קריאה"
+
+msgid "Reading mask"
+msgstr "תומך קריאה"
+
+msgid "Reading mode"
+msgstr "מצב קריאה"
+
+msgid "Read aloud"
+msgstr "קורא מסך"
+
+# ── Widget: additional aids ───────────────────────────────────────────────────
+msgid "Additional aids"
+msgstr "עזרים נוספים"
+
+msgid "Stop animations"
+msgstr "עצור אנימציות"
+
+msgid "Pause GIFs"
+msgstr "השהה GIFs"
+
+msgid "Hide images"
+msgstr "הסתר תמונות"
+
+msgid "Show alt text"
+msgstr "הצג טקסט חלופי"
+
+msgid "Stop audio"
+msgstr "עצירת שמע"
+
+msgid "Highlight hover"
+msgstr "הדגש מעבר עכבר"
+
+msgid "Highlight click"
+msgstr "הדגש לחיצה"
+
+msgid "Form labels"
+msgstr "תוויות טפסים"
+
+msgid "Table navigation"
+msgstr "ניווט טבלאות"
+
+msgid "Missing label"
+msgstr "חסרה תווית"
+
+# ── Widget: navigation ────────────────────────────────────────────────────────
+msgid "Navigation"
+msgstr "ניווט"
+
+msgid "Skip link"
+msgstr "קישור דילוג"
+
+msgid "Skip to main content"
+msgstr "דלג לתוכן הראשי"
+
+msgid "Focus ring"
+msgstr "מסגרת מיקוד"
+
+msgid "Jump to section"
+msgstr "קפוץ לאזור"
+
+msgid "No landmarks found"
+msgstr "לא נמצאו נקודות ניווט"
+
+msgid "Keyboard shortcuts"
+msgstr "קיצורי מקלדת"
+
+msgid "Header"
+msgstr "כותרת עמוד"
+
+msgid "Main content"
+msgstr "תוכן ראשי"
+
+msgid "Sidebar"
+msgstr "סרגל צד"
+
+msgid "Footer"
+msgstr "תחתית עמוד"
+
+msgid "Search"
+msgstr "חיפוש"
+
+msgid "Form"
+msgstr "טופס"
+
+# ── Widget: keyboard shortcut descriptions ────────────────────────────────────
+msgid "Move to next focusable element"
+msgstr "מעבר לרכיב הניתן למיקוד הבא"
+
+msgid "Move to previous element"
+msgstr "מעבר לרכיב הקודם"
+
+msgid "Activate button or link"
+msgstr "הפעל כפתור או קישור"
+
+msgid "Close dialog or overlay"
+msgstr "סגור דו-שיח או שכבת-על"
+
+msgid "Navigate within menus and groups"
+msgstr "ניווט בתוך תפריטים וקבוצות"
+
+msgid "Jump to next heading"
+msgstr "קפוץ לכותרת הבאה"
+
+msgid "Jump to next form field"
+msgstr "קפוץ לשדה טופס הבא"
+
+msgid "Jump to next list"
+msgstr "קפוץ לרשימה הבאה"
+
+msgid "Jump to next table"
+msgstr "קפוץ לטבלה הבאה"
+
+msgid "Navigate table cells (NVDA)"
+msgstr "נווט בתאי טבלה (NVDA)"
+
+# ── Widget: profiles ──────────────────────────────────────────────────────────
+msgid "Profiles"
+msgstr "פרופילים"
+
+msgid "Save current"
+msgstr "שמור נוכחי"
+
+msgid "No saved profiles"
+msgstr "אין פרופילים שמורים"
+
+msgid "Delete"
+msgstr "מחק"
+
+msgid "Enter a name for this profile:"
+msgstr "הזן שם לפרופיל זה:"
+
+# ── Widget: report form ───────────────────────────────────────────────────────
+msgid "Report a problem"
+msgstr "דווח על בעיה"
+
+msgid "Your name"
+msgstr "שמך"
+
+msgid "Your email"
+msgstr "כתובת הדוא\"ל שלך"
+
+msgid "Page URL"
+msgstr "כתובת הדף"
+
+msgid "Problem category"
+msgstr "קטגוריית הבעיה"
+
+msgid "Description"
+msgstr "תיאור"
+
+msgid "Submit report"
+msgstr "שלח דיווח"
+
+msgid "— Select —"
+msgstr "— בחר —"
+
+msgid "Keyboard navigation"
+msgstr "ניווט במקלדת"
+
+msgid "Screen reader"
+msgstr "קורא מסך"
+
+msgid "Color or contrast"
+msgstr "צבע או ניגודיות"
+
+msgid "Text or font"
+msgstr "טקסט או גופן"
+
+msgid "Images or media"
+msgstr "תמונות או מדיה"
+
+msgid "Forms"
+msgstr "טפסים"
+
+msgid "Other"
+msgstr "אחר"
+
+msgid "Please fill in all required fields."
+msgstr "אנא מלא את כל השדות הנדרשים."
+
+msgid "Sending\u2026"
+msgstr "שולח\u2026"
+
+msgid "Report submitted. Thank you!"
+msgstr "הדיווח נשלח. תודה!"
+
+msgid "Could not send the report. Please try again."
+msgstr "לא ניתן לשלוח את הדיווח. נסה שוב."
+
+msgid "Too many reports from your connection. Please wait and try again later."
+msgstr "יותר מדי דיווחים מהחיבור שלך. המתן ונסה שוב מאוחר יותר."
+
+msgid "Company website"
+msgstr "אתר החברה"
+
+# ── Widget: footer ────────────────────────────────────────────────────────────
+msgid "Accessibility statement"
+msgstr "הצהרת נגישות"
+
+msgid "Accessibility help"
+msgstr "עזרה בנגישות"
+
+msgid "Reset accessibility settings"
+msgstr "אפס הגדרות נגישות"
+
+msgid "Clear Web"
+msgstr "Clear Web"
+
+msgid "The accessibility system on this site was developed by %s"
+msgstr "מערכת הנגישות באתר זה פותחה על ידי %s"
+
+msgid "Visit Clear Web (opens in a new tab)"
+msgstr "בקר ב-Clear Web (נפתח בלשונית חדשה)"
+
+# ── Widget: information architecture ───────────────────────────────────────────
+msgid "Quick start"
+msgstr "התחלה מהירה"
+
+msgid "Low vision"
+msgstr "ראייה לקויה"
+
+msgid "ADHD"
+msgstr "ADHD"
+
+msgid "Reduce motion"
+msgstr "הפחתת תנועה"
+
+msgid "Active settings"
+msgstr "הגדרות פעילות"
+
+msgid "No adjustments active"
+msgstr "אין התאמות פעילות"
+
+msgid "Remove"
+msgstr "הסר"
+
+msgid "Text"
+msgstr "טקסט"
+
+msgid "Vision"
+msgstr "ראייה"
+
+msgid "Reading"
+msgstr "קריאה"
+
+msgid "More"
+msgstr "עוד"
+
+msgid "Text size"
+msgstr "גודל טקסט"
+
+# ── Report REST endpoint ──────────────────────────────────────────────────────
+msgid "Category and description are required."
+msgstr "קטגוריה ותיאור הם שדות חובה."
+
+msgid "A new accessibility problem has been reported:"
+msgstr "דווחה בעיית נגישות חדשה:"
+
+msgid "[%s] Accessibility problem report"
+msgstr "[%s] דיווח על בעיית נגישות"

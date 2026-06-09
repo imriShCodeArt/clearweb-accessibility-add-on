@@ -1,0 +1,62 @@
+﻿.cwas-admin {
+    max-width: 1160px;
+}
+
+.cwas-admin-cta {
+    margin: 12px 0 20px;
+    padding: 14px 16px;
+    border: 1px solid #c3c4c7;
+    border-left: 4px solid #0852e0;
+    background: #f6f7f7;
+    border-radius: 2px;
+}
+
+.cwas-admin--rtl .cwas-admin-cta {
+    border-left: 1px solid #c3c4c7;
+    border-right: 4px solid #0852e0;
+}
+
+.cwas-admin-cta__text {
+    margin: 0 0 10px;
+}
+
+.cwas-admin-cta__link {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 2px;
+    background: #0852e0;
+    color: #fff !important;
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        background: #0641b3;
+        color: #fff !important;
+    }
+}
+
+.cwas-tabs {
+    margin-top: 20px;
+}
+
+.cwas-settings-intro {
+    margin-top: 0;
+}
+
+.cwas-settings-form {
+    display: grid;
+    gap: 20px;
+    max-width: 480px;
+    margin-top: 16px;
+}
+
+.cwas-settings-actions {
+    margin-top: 24px;
+}
+
+.cwas-settings-loading {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}

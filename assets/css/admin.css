@@ -1,0 +1,13 @@
+﻿#cwas-admin-app {
+    margin-top: 20px;
+}
+
+.cwas-settings-form {
+    max-width: 480px;
+}
+
+.cwas-settings-loading {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}

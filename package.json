@@ -1,0 +1,25 @@
+{
+  "name": "clearweb-accessibility-suite",
+  "version": "1.0.3",
+  "private": true,
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "lint:js": "wp-scripts lint-js assets/src",
+    "format": "wp-scripts format",
+    "i18n:make-pot": "wp i18n make-pot . languages/clearweb-accessibility-add-on.pot --domain=clearweb-accessibility-add-on --exclude=node_modules,vendor,build",
+    "zip": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-release-zip.ps1"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "latest",
+    "@wordpress/components": "latest",
+    "@wordpress/element": "latest",
+    "axe-core": "latest"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "latest"
+  },
+  "overrides": {
+    "ajv": "^8.17.1"
+  }
+}

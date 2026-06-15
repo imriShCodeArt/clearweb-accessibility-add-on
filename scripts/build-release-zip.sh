@@ -46,7 +46,7 @@ if [[ "$SKIP_BUILD" != true ]]; then
 fi
 
 rm -rf "$STAGE"
-mkdir -p "$STAGE"
+mkdir -p "$STAGE/assets/css" "$STAGE/assets/images"
 
 cp "$ROOT/clearweb-accessibility-suite.php" "$STAGE/"
 cp "$ROOT/uninstall.php" "$STAGE/" 2>/dev/null || true
@@ -61,7 +61,6 @@ cp -r "$ROOT/languages" "$STAGE/languages"
 cp "$ROOT/package.json" "$STAGE/"
 cp "$ROOT/package-lock.json" "$STAGE/"
 cp "$ROOT/webpack.config.js" "$STAGE/"
-mkdir -p "$STAGE/assets/css" "$STAGE/assets/images"
 cp "$ROOT/assets/css/"*.css "$STAGE/assets/css/"
 cp "$ROOT/assets/images/"* "$STAGE/assets/images/" 2>/dev/null || true
 
